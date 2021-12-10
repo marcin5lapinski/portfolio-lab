@@ -1,25 +1,17 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
-import Home from "./components/Home";
-import ThreeColumns from "./components/ThreeColumns";
-import FourSteps from "./components/FourSteps";
-import About from "./components/About";
-import WhoWeHelp from "./components/WhoWeHelp";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Home from "./components/pages/Home";
+import Login from "./components/pages/Login";
+import Register from "./components/pages/Register";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/three-columns" element={<ThreeColumns />} />
-        <Route exact path="/four-steps" element={<FourSteps />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/who-we-help" element={<WhoWeHelp />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/footer" element={<Footer />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );

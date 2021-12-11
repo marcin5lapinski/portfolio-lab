@@ -1,10 +1,15 @@
 import React from "react";
+import FSTitleBox from "./FSTitleBox";
+import StepsBox from "./StepsBox";
+import FSButtonBox from "./FSButtonBox";
 
 const FourSteps = () => {
     return (
-        <div>
-            FourSteps
-        </div>
+        <section className="four-steps-container">
+            <FSTitleBox />
+            <StepsBox />
+            <FSButtonBox />
+        </section>
     )
 }
 

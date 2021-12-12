@@ -2,9 +2,9 @@ import React from "react";
 
 const WhoWeHelp = () => {
     return (
-        <div>
+        <section className="wwh-container" id="who-we-help">
             WhoWeHelp
-        </div>
+        </section>
     )
 }
 

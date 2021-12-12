@@ -1,10 +1,13 @@
 import React from "react";
+import ContactContent from "./ContactContent";
+import Footer from "./Footer";
 
 const Contact = () => {
     return (
-        <div>
-            Contact
-        </div>
+        <section className="contact-container" id="contact">
+            <ContactContent />
+            <Footer />
+        </section>
     )
 }
 

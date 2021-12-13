@@ -1,6 +1,6 @@
 import React from "react";
 
-const Column = ( { count, text } ) => {
+const Column = ({ count, text }) => {
     return (
         <div className="column-box">
             <p className="col-counter">{count}</p>

@@ -14,9 +14,7 @@ const Message = () => {
         <div className="message-textarea">
             <label className="label-message">
                 Wpisz swoją wiadomość
-                <textarea value={message} onChange={messageChange}>
-                    
-                </textarea>
+                <textarea value={message} onChange={messageChange} />
             </label>
         </div>
     )

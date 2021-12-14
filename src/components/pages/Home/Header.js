@@ -1,6 +1,6 @@
 import React from "react";
+import LoginRegister from "../../sub-components/LoginRegister";
 import Navigation from "../../sub-components/Navigation";
-import LoginRegister from "./LoginRegister";
 import HeaderBox from "./HeaderBox";
 
 const Header = () => {

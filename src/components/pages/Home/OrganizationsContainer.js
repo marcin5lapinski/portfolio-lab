@@ -1,8 +1,9 @@
 import React from "react";
 
-const OrganizationsContainer = () => {
+const OrganizationsContainer = ({ displayFunds }) => {
     return (
         <div className="org-container">
+            {displayFunds}
         </div>
     )
 }

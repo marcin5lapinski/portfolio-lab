@@ -49,8 +49,6 @@
 
 .wwh-content {
     height: 553px;
-
-    border: 1px solid orange;
 }
 
 .description-box {
@@ -70,20 +68,81 @@
 
 .org-container {
     height: 330px;
-
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
 }
 
-.pages-numbers--container {
-    height: 63px;
+.fund-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    color: $darker-gray;
+    padding: 30px 0;
+}
+
+.fund-container:nth-child(2) {
+    border: 1px solid #707070;
+    border-left: none;
+    border-right: none;
+}
+
+.fund-name {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.fund-mission {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fund-givings {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.num-pages--container {
+    width: 100%;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.pages-numbers--box {
-    width: 155px;
-    height: 50px;
+.previous {
+    display: none;
+}
 
-    border: 1px solid gray;
+.next {
+    display: none;
+}
+
+.pages-count {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: $darker-gray;
+}
+
+.pages-count a {
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.pages-count a:hover {
+    border: 1px solid $darker-gray;
+}
+
+.active-page a {
+    border: 1px solid $darker-gray;
+}
+
+.active-page a:focus {
+    outline: none;
 }

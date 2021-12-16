@@ -1,0 +1,72 @@
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 123px;
+
+    h1 {
+        font-size: 38px;
+        color: #3C3C3C;
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 25px;
+    }
+
+    img {
+        width: 253px;
+        height: 33px;
+        margin-bottom: 45px;
+    }
+
+    .home-btn {
+        width: 150px;
+        height: 50px;
+        border: 1px solid $darker-gray;
+        background: transparent;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: $darker-gray;
+    }
+}
+
+.login-box {
+    width: 505px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form {
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    background: $base-color;
+    padding: 40px 65px 10px 65px;
+    margin-bottom: 40px;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+    input {
+        width: 250px;
+    }
+}
+
+.label-email {
+    margin-bottom: 30px;
+}
+
+.login-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a.home-btn.register-btn {
+    border: 1px solid transparent;
+}

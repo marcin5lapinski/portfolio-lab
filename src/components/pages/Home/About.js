@@ -1,6 +1,6 @@
 import React from "react";
-import people from "../../../assets/People.jpg"
 import AboutInfo from "./AboutInfo";
+import people from "../../../assets/People.jpg";
 
 const About = () => {
     return (

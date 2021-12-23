@@ -38,7 +38,7 @@
 .name-email {
     display: flex;
     gap: 16px;
-    margin-bottom: 44px;
+    margin-bottom: 30px;
 }
 
 .label-name {
@@ -98,13 +98,13 @@ input::placeholder {
     align-items: flex-start;
 
     textarea {
-        margin-top: 12px;
+        margin-top: 5px;
         width: 100%;
         height: 105px;
         font-family: 'Open Sans', sans-serif;
         font-size: 18px;
         font-weight: 400;
-        color: lightgray;
+        color: $darker-gray;
         border: 2px solid $light-gray;
         border-top: transparent;
         border-right: transparent;
@@ -115,7 +115,7 @@ input::placeholder {
 
 .contact-btn--box {
     width: 100%;
-    height: 90px;
+    height: 70px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -149,5 +149,6 @@ input::placeholder {
         width: 30px;
         height: 30px;
         margin: 0 0 0 20px;
+        cursor: pointer;
     }
 }
